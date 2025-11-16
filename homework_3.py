@@ -53,6 +53,7 @@ class Lecturer(Mentor):
         super().__init__(name, surname)
         self.grades = {}
 
+    # вывод для Лектора
     def __str__(self):
         av_grade = self.average_grade()
         return (f'Имя: {self.name}\n'
@@ -82,6 +83,7 @@ class Reviewer(Mentor):
         else:
             return 'Ошибка'
 
+    # вывод для Проверяющего
     def __str__(self):
         return f'Имя: {self.name}\nФамилия: {self.surname}'
 
