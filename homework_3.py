@@ -102,5 +102,7 @@ some_student.finished_courses = ['Введение в программирова
 
 
 print(some_reviewer)
+print()
 print(some_lecturer)
+print()
 print(some_student)
