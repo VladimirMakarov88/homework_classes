@@ -188,7 +188,7 @@ print(lecturer.grades)  # {'Python': [7]}
 print()
 
 
-# ВЫВОД ПО ДОМАШНЕМУ ЗАДАНИЮ № 2
+# ВЫВОД ПО ДОМАШНЕМУ ЗАДАНИЮ № 3 (часть 1)
 some_reviewer = Reviewer('Some', 'Buddy') # вывод для Проверяющих
 
 some_lecturer = Lecturer('Some', 'Buddy') # вывод для Лекторов
@@ -206,7 +206,7 @@ print()
 print(some_student)
 
 
-# ВЫВОД ПО ДОМАШНЕМУ ЗАДАНИЮ № 3
+# ВЫВОД ПО ДОМАШНЕМУ ЗАДАНИЮ № 4
 some_reviewer1 = Reviewer('Some', 'Buddy') # вывод для Проверяющих (два экземпляра)
 some_reviewer2 = Reviewer('Any', 'Times')
 
@@ -258,7 +258,7 @@ for course in all_courses:
 
 print()
 
-# ПРОВЕРКА сравнения средних оценок через методы сравнения.
+# ПРОВЕРКА сравнения средних оценок через методы сравнения. ДОМАШНЕЕ ЗАДАНИЕ 3 (часть 2)
 print(f'Средние оценки студента: {some_student1.name} {some_student1.surname} = '
       f'средним оценкам студента: {some_student2.name} {some_student2.surname}? '
       f'{some_student1 == some_student2}')
@@ -299,5 +299,3 @@ print(f'Средние оценки Лектора: {some_lecturer1.name} {some_
 print(f'Средние оценки Лектора: {some_lecturer1.name} {some_lecturer1.surname} <= '
       f'средним оценкам лектора: {some_lecturer2.name} {some_lecturer2.surname}? '
       f'{some_lecturer1 <= some_lecturer2}')
-
-
